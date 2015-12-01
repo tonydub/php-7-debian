@@ -64,8 +64,8 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --with-readline \
                   --with-curl \
                   --enable-fpm \
-                  --with-fpm-user=www-data \
-                  --with-fpm-group=www-data"
+                  --with-fpm-user=vagrant \
+                  --with-fpm-group=vagrant"
 
 ./configure $CONFIGURE_STRING
 
